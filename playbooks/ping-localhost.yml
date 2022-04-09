@@ -1,7 +1,6 @@
 ---
 - name: Ping the localhost
   hosts: localhost
-  connection: local
   gather_facts: false
   tasks:
     - name: Induce a ping/pong
