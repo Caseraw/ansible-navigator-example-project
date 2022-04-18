@@ -4,7 +4,7 @@ ansible-navigator:
   mode: stdout
   execution-environment:
     container-engine: podman
-    image: quay.io/kasra_amirsarvari/ansible-custom-ee-example@sha256:f416a410d42dc1afd2c45a29652b2fc76f488f2ab4933064b2e4e1fc0856aa0e
+    image: quay.io/ansible/creator-ee:latest
     ## Pull-policy option: always, missing, never, or tag
     pull-policy: missing
     # environment-variables:
